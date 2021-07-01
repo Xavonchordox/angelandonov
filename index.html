@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -175,4 +176,183 @@
     })
     </script>
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <section>
+        <!--Navigation-->
+        <nav>
+        <!--Logo-->
+        <a href="index.html" class="logo">Angel</a>
+        <!--Menu-->
+        <ul>
+        <li><a href="#index.html" class="active">Home</a></li>
+        <li><a href="#about-container">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact-me">Contact me</a></li>
+        </ul>
+        <!--Bars-->
+        <div class="toggle"></div>
+
+        </nav>
+    </section>
+    <!--Text-->
+		<div class="text-container">
+			<p>Hello,</p>
+		    <p>I&#8217;m Angel Andonov</p>
+			<p>Freelance Devolper <br>& Designer</p>
+			<button class="hire-btn">Hire me</button>
+			<button class="down-cv">Download CV</button>
+		</div>
+	<!--Model-->
+	<img alt="model" class="model" src="/images/b-Angel.png">
+    <div id="about-container">
+        <!--img-->
+            <img src="/images/Angel.png"/>
+        <!--About-me-text-->
+            <div class="about-text">
+            <p>About Me</p>
+            <p>Devolper & Designer</p>
+            <p>
+                I am a Computer Science student. My passion for technology is my
+                own way of expressing my creative perspective for the world. I tend to solve my problems with understanding,
+                work and communication with people so we can achieve our collective goals.
+            </p>
+            </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills">
+		<h1>Skills</h1>
+		<span>My technical level</span>
+
+        <!-- Skill 1 -->
+        <h3>HTML</h3>
+        <div class="skillbar">
+            <div class="skillpercent html">85%</div>
+        </div>
+
+        <!-- Skill 2 -->
+        <h3>CSS</h3>
+        <div class="skillbar">
+            <div class="skillpercent css">80%</div>
+        </div>
+
+        <!-- Skill 3 -->
+        <h3>JavaScrip</h3>
+        <div class="skillbar">
+            <div class="skillpercent javascript">20%</div>
+        </div>
+
+        <!-- Skill 4 -->
+        <h3>jQuery</h3>
+        <div class="skillbar">
+            <div class="skillpercent jquery">15%</div>
+        </div>
+
+        <!-- Skill 5-->
+        <h3>Photoshop</h3>
+        <div class="skillbar">
+            <div class="skillpercent photoshop">80%</div>
+        </div>
+    </div>
+
+    <!--Contact me-->
+	<div id="contact-me">
+        <div style="text-align:center">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="row">
+            <div class="column">
+                <ul>
+                    <li>
+                        <i class="fa fa-phone"></i><br>
+                        <span>Call me</span>
+                        <h5>+389 72 689 799</h5>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i><br>
+                        <span>Email</span>
+                        <h5>angel.andonov.1@students.finki.ukim.mk</h5>
+                    </li>
+                    <li>
+                        <i class="fa fa-map-marker"></i><br>
+                        <span>Location</span>
+                        <h5>Gevgelija, Macedonia</h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="">
+                    <label for="lname">Email</label>
+                    <input type="text" id="mail" name="email" placeholder="">
+                    <label for="lname">Project</label>
+                    <input type="text" id="project" name="project" placeholder="">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="submit" value="Submit" style="border-radius: .25rem">
+                </form>
+            </div>
+        </div>
+	</div>
+
+    <!--Footer-->
+    <footer>
+        <!-- Social -->
+        <div class="social-icons">
+        <a href="https://www.facebook.com/me/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/AngelAndonov7" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/angelandonov/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <!-- Copyright -->
+        <p class="copyright">Copyright &copy; 2021 by Angel Andonov </p>
+    </footer>
+    
+    <!-- Back-to-Top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up" style="font-size:24px"></i>
+    </button>
+
+    <script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+   <!--JQUery-->
+    <script type="text/javascript" src="js/JQuery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        })
+    })
+    </script>
+</body>
+>>>>>>> 18fc15bf6d6785328e5af7259ca2b3cbe3441b82
 </html>
