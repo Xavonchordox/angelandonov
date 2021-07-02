@@ -106,12 +106,17 @@ nav ul li a{
 	border:2px solid #373636;
 	color:#373636;
 	background-color:transparent;
-
+}
+.hire-btn:hover{
+	background: #373636;
+	color:#ffffff;
 }
 .down-cv{
 	background-color:#0B0B0B;
-	color:#fff;
 	border:none;
+}
+.down-cv a{
+	color: #fff;
 }
 button:active{
 	transform:scale(1.1);
@@ -121,7 +126,7 @@ button:active{
 	height:330px;
 	background:#ffffff;
 	border-radius:20px;
-	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	box-shadow:2px 2px 25px rgba(0,0,0,0.2);
 	display: flex;
 	margin: -7%  auto 20px auto;
 	position: relative;
@@ -647,6 +652,9 @@ footer{
 		border-radius: 50%;
 		width: 35px;
 		height: 35px;
+	}
+	.column:first-of-type{
+		padding-left: 0;
 	}
 }
 @media screen and (max-width: 410px) {
