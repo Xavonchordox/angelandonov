@@ -11,21 +11,23 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-    <section>
+    <section id="sec">
+        
         <!--Navigation-->
-        <nav>
-        <!--Logo-->
-        <a href="index.html" class="logo">Angel</a>
-        <!--Menu-->
-        <ul>
-        <li><a href="#index.html" class="active">Home</a></li>
-        <li><a href="#about-container">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact-me">Contact me</a></li>
-        </ul>
-        <!--Bars-->
-        <div class="toggle"></div>
+        <nav id="navbar">
+            <!--Logo-->
+            <a href="index.html" class="logo">Angel</a>
 
+            <!--Menu-->
+            <ul>
+                <li><a href="#sec" class="active">Home</a></li>
+                <li><a href="#about-container">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact-me">Contact me</a></li>
+            </ul>
+            
+            <!--Bars-->
+            <div class="toggle"></div>
         </nav>
     </section>
     <!--Text-->
@@ -164,22 +166,6 @@
         document.documentElement.scrollTop = 0;
     }
     </script>
-
-    <!-- Sticky Navigation -->
-    <!-- <script>
-        window.onscroll = function() {myFunction()};
-        
-        var navbar = document.getElementById("nav");
-        var sticky = nav.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            nav.classList.add("sticky")
-          } else {
-            nav.classList.remove("sticky");
-          }
-        }
-    </script> -->
 
    <!--JQUery-->
     <script type="text/javascript" src="js/JQuery.js"></script>
